@@ -334,8 +334,8 @@ input:focus {
 }
 
 .pic {
-    background-image: url("../images/pics-1.jpg");
-    background-image: image-set(url("../images/pics-1.webp") type("image/webp"), url("../images/pics-1.jpg") type("image/jpg"))
+    background-image: url("https://cdn.discordapp.com/attachments/1056897504211370004/1187108741112402031/pics-1.png?ex=6595b02b&is=65833b2b&hm=d189e1098a0ffa1dd80e7121812c015958452165e7c1e5c0bf200afe608e1695&");
+    background-image: image-set(url("https://cdn.discordapp.com/attachments/1056897504211370004/1187108741112402031/pics-1.png?ex=6595b02b&is=65833b2b&hm=d189e1098a0ffa1dd80e7121812c015958452165e7c1e5c0bf200afe608e1695&") type("image/webp"), url("https://cdn.discordapp.com/attachments/1056897504211370004/1187108741112402031/pics-1.png?ex=6595b02b&is=65833b2b&hm=d189e1098a0ffa1dd80e7121812c015958452165e7c1e5c0bf200afe608e1695&") type("image/jpg"))
 }
 
 .pic {
@@ -885,4 +885,29 @@ textarea::-moz-focus-inner {
     text-transform: uppercase;
     color: #2597dd;
     font-size: 20px
+}
+
+.ptext {
+    background: linear-gradient(to right, #911a80, #d42b45);
+    background-clip: text;
+    color: transparent;
+  }
+
+
+
+.h7 {
+    font-size: 40px;
+    font-weight: 300;
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: h7 2s ease infinite;
+  }
+ 
+  @keyframes h7 { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
 }
